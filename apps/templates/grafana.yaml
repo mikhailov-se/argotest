@@ -11,7 +11,7 @@ spec:
     namespace: default
   project: default
   source:
-    chart: grafana
+    chart: grafana/grafana
     helm:
       values: |
         pushgateway:
